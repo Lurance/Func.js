@@ -1,0 +1,26 @@
+{
+  "name": "func.js",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "repository": "https://github.com/Lurance/Func.js.git",
+  "author": "Lurance <353650263@qq.com>",
+  "scripts": {
+    "show": "nodemon playground/index.ts",
+    "lint:fix": "tslint -p  tsconfig.json --fix"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^6.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.5",
+    "nodemon": "^1.18.3",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  },
+  "nodemonConfig": {
+    "execMap": {
+      "ts": "ts-node"
+    }
+  }
+}
